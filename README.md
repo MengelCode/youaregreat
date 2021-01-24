@@ -9,7 +9,7 @@ minutes. Give it a try, let it run alongside your other applications, look at it
 can be guaranteed, but it will most likely not cause any harm.
 
 ## Technical details
-The script needs Python 3.6 or above to run.
+The script needs Python 3.6 or above to run. It is a command line / terminal application.
 
 ## Cooperation / Collaboration
 You can contribute to the project if you feel like it. In this case, you agree that your contributions will become
