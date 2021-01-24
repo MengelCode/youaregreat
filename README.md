@@ -17,5 +17,4 @@ part of the MIT license. Feel free to make PRs.
 Possible tasks:
 * Add support for other languages.
 * Add command line params for more options.
-* Add new positive affirmations, either by brainstorming (how it was done with the initial phrases) or through research
-  (name the source then)! The pool of possible sentences is still small.
+* Add new positive affirmations! The pool of possible sentences is still small.
