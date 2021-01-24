@@ -13,7 +13,9 @@ The script needs Python 3.6 or above to run.
 
 ## Cooperation / Collaboration
 You can contribute to the project if you feel like it. In this case, you agree that your contributions will become
-part of the MIT license.
+part of the MIT license. Feel free to make PRs.
 Possible tasks:
-* Add support for other languages
-* Add command line params
+* Add support for other languages.
+* Add command line params for more options.
+* Add new positive affirmations, either by brainstorming (how it was done with the initial phrases) or through research
+  (name the source then)! The pool of possible sentences is still small.
