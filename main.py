@@ -30,7 +30,8 @@ messages_en = [
     "Emotions are part of your nature.",
     "Everyone has bad days. But those days will eventually pass and good ones will come.",
     "There is nobody exactly like you again. You are a unique treasure.",
-    "The sun will always return."
+    "The sun will always return.",
+    "The only man who never makes a mistake is the man who never does anything."
 ]
 
 while True:
