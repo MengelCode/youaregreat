@@ -32,7 +32,8 @@ messages_en = [
     "There is nobody exactly like you again. You are a unique treasure.",
     "The sun will always return.",
     "The only man who never makes a mistake is the man who never does anything.",
-    "Everyone was once a novice."
+    "Everyone was once a novice.",
+    "Even if it does not look like it, somebody does care for you."
 ]
 
 while True:
