@@ -33,7 +33,8 @@ messages_en = [
     "The sun will always return.",
     "The only man who never makes a mistake is the man who never does anything.",
     "Everyone was once a novice.",
-    "Even if it does not look like it, somebody does care for you."
+    "Even if it does not look like it, somebody does care for you.",
+    "Sometimes you have to wait for a while, but at some point, feelings of accomplishment will return to you."
 ]
 
 while True:
