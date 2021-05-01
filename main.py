@@ -34,7 +34,8 @@ messages_en = [
     "The only man who never makes a mistake is the man who never does anything.",
     "Everyone was once a novice.",
     "Even if it does not look like it, somebody does care for you.",
-    "Sometimes you have to wait for a while, but at some point, feelings of accomplishment will return to you."
+    "Sometimes you have to wait for a while, but at some point, feelings of accomplishment will return to you.",
+    "Even in the most sinister darkness, there is some light and hope."
 ]
 
 while True:
