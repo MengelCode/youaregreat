@@ -37,6 +37,7 @@ messages_en = [
     "Sometimes you have to wait for a while, but at some point, feelings of accomplishment will return to you.",
     "It is sometimes very hard to be honest. But it will pay off in the end.",
     "Everyone is a star. We all just need to find our way to shine.",
+    "You have potential! You will eventually find a way to use it.",
     
 ]
 
