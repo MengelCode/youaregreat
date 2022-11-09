@@ -1,5 +1,6 @@
 # !/usr/bin/python3
 import secrets
+from sys import argv
 from time import sleep
 from os import name, system
 
@@ -41,6 +42,8 @@ messages_en = [
     
 ]
 
+use_notify = len(argv) > 1 and argv[1] == "-n"
+
 while True:
     if name == "nt":
         system("cls")
@@ -49,5 +52,8 @@ while True:
         system("clear")
 
     randomIndex = secrets.randbelow(len(messages_en))
-    print(messages_en[randomIndex])
+    if use_notify:
+        system("notify-send 'You are great!' " + "'" + messages_en[randomIndex] + "'")
+    else:
+        print(messages_en[randomIndex])
     sleep(300)
