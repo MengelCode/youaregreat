@@ -32,7 +32,7 @@ messages_en = [
     "Everyone has bad days. But those days will eventually pass and good ones will come.",
     "There is nobody exactly like you again. You are a unique treasure.",
     "The sun will always return.",
-    "The only man who never makes a mistake is the man who never does anything.",
+    "The only human who never makes a mistake is the human who never does anything.",
     "Everyone was once a novice.",
     "Even if it does not look like it, somebody does care for you.",
     "Sometimes you have to wait for a while, but at some point, feelings of accomplishment will return to you.",
