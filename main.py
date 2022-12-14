@@ -3,6 +3,11 @@ import secrets
 from sys import argv
 from time import sleep
 from os import name, system
+try:
+    import tkinter
+except Exception as e:
+    print(e)
+    print("The tkinter library is unavailable on your system. Follow instructions above for troubleshooting.")
 
 # Possible mantras which can be printed on-screen.
 # This list contains positive affirmations.
@@ -40,7 +45,7 @@ messages_en = [
     "Everyone is a star. We all just need to find our way to shine.",
     "You have potential! You will eventually find a way to use it.",
 ]
-
+use_tkinter = len(argv) > 1 and argv[1] == "-tk"
 use_notify = len(argv) > 1 and argv[1] == "-n"
 use_xmessage = len(argv) > 1 and argv[1] == "-xm"
 
@@ -52,6 +57,8 @@ while True:
         system("clear")
 
     randomIndex = secrets.randbelow(len(messages_en))
+    if use_tkinter:
+        tkinter.messagebox.showinfo(title="You are great!", message=messages_en[randomIndex])
     if use_xmessage:
        system("xmessage -buttons 'Thank you!':0 -nearmouse -timeout 65 '" + messages_en[randomIndex] + "'")
     elif use_notify:
