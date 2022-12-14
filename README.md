@@ -12,7 +12,8 @@ can be guaranteed, but it will most likely not cause any harm.
 The script needs Python 3.6 or above to run. It is a command line / terminal application.
 If you are using a Linux system and have the notification service enabled, use -n to use
 that as a means of output. If you try this and end up with strange error messages, gather
-information how to install the notify-send command on your machine.
+information how to install the notify-send command on your machine. If your Linux system
+does use an X Server, you can pass the -xm param to have message boxes appear.
 
 ## Cooperation / Collaboration
 You can contribute to the project if you feel like it. In this case, you agree that your contributions will become

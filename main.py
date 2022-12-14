@@ -42,6 +42,7 @@ messages_en = [
 ]
 
 use_notify = len(argv) > 1 and argv[1] == "-n"
+use_xmessage = len(argv) > 1 and argv[1] == "-xm"
 
 while True:
     if name == "nt":
@@ -51,7 +52,9 @@ while True:
         system("clear")
 
     randomIndex = secrets.randbelow(len(messages_en))
-    if use_notify:
+    if use_xmessage:
+       system("xmessage -buttons 'Thank you!':0 -nearmouse -timeout 65 '" + messages_en[randomIndex] + "'")
+    elif use_notify:
         system("notify-send 'You are great!' " + "'" + messages_en[randomIndex] + "'")
     else:
         print(messages_en[randomIndex])
