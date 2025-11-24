@@ -42,8 +42,8 @@ messages_en = [
     "What appears to be a disadvantage in one situation, can turn out to be a valuable gift in another one.",
 ]
 
-use_notify = len(argv) > 1 and argv[1] == "-n"
-use_xmessage = len(argv) > 1 and argv[1] == "-xm"
+use_notify = len(argv) > 1 and  "-n" in argv
+use_xmessage = len(argv) > 1 and "-xm" in argv
 
 while True:
     if name == "nt":
