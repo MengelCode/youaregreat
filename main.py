@@ -60,7 +60,7 @@ while True:
     elif use_notify:
        system("notify-send 'You are great!' " + "'" + messages_en[randomIndex] + "'")
     else:
-        print(messages_en[randomIndex])
+       print(messages_en[randomIndex])
         
     if slow_mode:
         sleep(900)
