@@ -15,7 +15,7 @@ that as a means of output. If you try this and end up with strange error message
 information how to install the notify-send command on your machine. If your Linux system
 does use an X Server (or the XWayland compatibility layer), you can pass the -xm param to have message boxes appear.
 
-**NEW (4th December 2024)** Now you can pass the -s param to have messages appear every 15 minutes instead of every 5.
+**NEW (4th December 2025)** Now you can pass the -s param to have messages appear every 15 minutes instead of every 5.
 
 ## Cooperation / Collaboration
 You can contribute to the project if you feel like it. In this case, you agree that your contributions will become
