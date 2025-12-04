@@ -61,6 +61,7 @@ while True:
         system("notify-send 'You are great!' " + "'" + messages_en[randomIndex] + "'")
     else:
         print(messages_en[randomIndex])
+        
     if slow_mode:
         sleep(900)
     else:        
