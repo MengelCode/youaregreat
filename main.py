@@ -58,7 +58,7 @@ while True:
     if use_xmessage:
        system("xmessage -buttons 'Thank you!':0 -nearmouse -timeout 65 '" + messages_en[randomIndex] + "'")
     elif use_notify:
-        system("notify-send 'You are great!' " + "'" + messages_en[randomIndex] + "'")
+       system("notify-send 'You are great!' " + "'" + messages_en[randomIndex] + "'")
     else:
         print(messages_en[randomIndex])
         
