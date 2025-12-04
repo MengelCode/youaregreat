@@ -40,6 +40,7 @@ messages_en = [
     "Everyone is a star. We all just need to find our way to shine.",
     "You have potential! You will eventually find a way to use it.",
     "What appears to be a disadvantage in one situation, can turn out to be a valuable gift in another one.",
+    "Nobody has the right to claim ownership about you.",
 ]
 
 use_notify = len(argv) > 1 and  "-n" in argv
