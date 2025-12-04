@@ -45,6 +45,7 @@ messages_en = [
 
 use_notify = len(argv) > 1 and  "-n" in argv
 use_xmessage = len(argv) > 1 and "-xm" in argv
+slow_mode = len(argv) > 1 and "-s" in argv
 
 while True:
     if name == "nt":
@@ -60,4 +61,7 @@ while True:
         system("notify-send 'You are great!' " + "'" + messages_en[randomIndex] + "'")
     else:
         print(messages_en[randomIndex])
-    sleep(300)
+    if slow_mode:
+        sleep(900)
+    else:        
+        sleep(300)
