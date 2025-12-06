@@ -47,6 +47,10 @@ use_notify = len(argv) > 1 and  "-n" in argv
 use_xmessage = len(argv) > 1 and "-xm" in argv
 slow_mode = len(argv) > 1 and "-s" in argv
 
+if use_notify and use_xmessage:
+    print("You cannot use notify-send and xmessage at the same time.")
+    exit(-1)
+
 while True:
     if name == "nt":
         system("cls")
